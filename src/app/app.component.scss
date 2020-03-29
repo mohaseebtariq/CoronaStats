@@ -1,0 +1,57 @@
+.bg-blue {
+  background-color: #282e38;
+  min-height: 100%;
+  color: white;
+}
+
+.mt {
+  margin: 3px 1em 3px 5px;
+}
+
+p.rtl {
+  direction: rtl;
+}
+
+.reverse-columns {
+  flex-direction: row-reverse;
+  display: flex;
+}
+
+.container_slider {
+  overflow: hidden;
+}
+
+.container-wrapper {
+  text-align: center;
+  display: flex;
+  height: auto;
+
+  animation: slide 7s linear infinite;
+}
+
+.SuiteEtCopie {
+  display: flex;
+  position: absolute;
+  width: 200%;
+}
+
+@keyframes slide {
+  from {
+    transform: translateX(0px);
+  }
+
+  to {
+    transform: translateX(-85%);
+  }
+}
+
+.move-to-next {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row-reverse;
+}
+
+.move-to-next>* {
+  font-size: 10px;
+  flex: 1 1 120px;
+}
