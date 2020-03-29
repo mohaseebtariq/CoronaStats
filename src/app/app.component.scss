@@ -53,5 +53,47 @@ p.rtl {
 
 .move-to-next>* {
   font-size: 10px;
-  flex: 1 1 120px;
+  flex: 1 1 110px;
+}
+
+.last-col-slider {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+}
+
+.last-col-slider>* {
+  flex: 1 1 20px;
+}
+
+
+.top-img-dim {
+  width: 40%;
+  height: 40%;
+}
+
+.bottom-img-dim {
+  width: 30%;
+  height: 30%;
+}
+
+.top-bar-font>* {
+  font-size: 10px;
+}
+
+.mg-left-topbar {
+  margin-left: 2px;
+}
+
+.topbar-stats {
+  padding-left: 5.5em;
+  margin-left: 3em;
+}
+
+.mt-top-5 {
+  margin-top: 3px;
+}
+
+.adj-font {
+  font-size: 11px;
 }
