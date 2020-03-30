@@ -158,6 +158,12 @@ $animationSpeed: 12s;
     top: 0;
   }
 
+@keyframes scroll {
+	0% { transform: translateX(0); }
+	100% { transform: translateX(calc(-250px * 7))}
+}
+
+
   .slide-track {
     animation: scroll $animationSpeed linear infinite;
     display: flex;
